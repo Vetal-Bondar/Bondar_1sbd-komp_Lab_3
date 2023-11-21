@@ -1,0 +1,172 @@
+body{
+  
+  background-color: #d4d7db;
+ 
+}
+
+.section {
+  margin-top: 40px;
+  flex: 1;
+  background-color: #FFFFFF; 
+  padding: 20px; 
+  border: 1px solid #dfe0e2;
+  border-radius: 40px;
+}
+
+.short-section {
+  flex-basis: 100px; 
+  padding: 20px; 
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  
+}
+
+.main-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #104FBD;
+  color: #ffffff;
+  border: 1px solid #5e6569;
+  border-radius: 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.small-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #5e6569;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-color: #ccc; 
+  margin: 20px 0; 
+}
+select {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+option {
+  font-size: 16px;
+}
+  
+  .container {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .left-column {
+      flex: 1; 
+      padding-right: 20px; 
+    }
+    .column {
+      width: 45%;
+      padding: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px; 
+  }
+
+    .toggle-container {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+
+    .toggle {
+      margin-bottom: 12px;
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      background-color: #ddd;
+      border-radius: 50px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .toggle input {
+      display: none;
+    }
+
+    
+    .toggle label {
+      margin-left: 10px;
+    }
+
+   
+    .toggle input:checked + span {
+      background-color: #104FBD;
+    }
+
+    
+    .toggle span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+
+    
+    .toggle input:checked + span {
+      transform: translateX(100%);
+    }
+    .cloud {
+      justify-content: center;
+      position: absolute;
+      top: 10px; 
+      left: 42%; 
+      transform: translateX(-50%);
+      width: 80px; 
+      height: 80px; 
+      background-color: rgb(243, 243, 243); 
+      border: 1px solid #e4e6e7;
+      border-radius: 50%; 
+    }
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px; 
+    }
+    .cloudpng {
+      justify-content: center;
+      position: absolute;
+      top: -5px; 
+      left: 50%; 
+      transform: translateX(-50%);
+      width: 80px; 
+      height: 80px; 
+    }
+    .paper{
+      width: 20px; 
+      height: 20px; 
+    }

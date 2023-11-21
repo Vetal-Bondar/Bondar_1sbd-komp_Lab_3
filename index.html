@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_3_Bondar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/V.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  
+
+    <div class="container">
+
+        <div class="section">
+                <div class="cloud"><img
+                  class="cloudpng"
+                  src="./img/2.png"
+                  alt="" />
+                </div>
+
+                <div class="container">
+                  
+                <div class="column">
+            <b dir="ltr" style="display: inline,">Data:09/11/2023</b>
+                </div>
+
+                <div class="column">
+                  <h2 style="text-align: center; display: inline">Invoice #001 <div style="color: rgb(255, 255, 255); display: inline"></div></h2>
+                </div>
+          <div dir="rtl" style="display: inline;"><b>Due date:</b>
+            <div style="color: rgb(77, 72, 72); display:inline">select</div>
+          
+          </div>
+        </div>
+
+          <hr>  
+        <div class="container">
+          <div class="column">
+            <label for="smallInputLeft"><b>Bill from</b></label>
+            <input type="text" id="smallInputLeft" name="smallInputLeft" placeholder="Email">
+            <label for="largeInputLeft"></label>
+            <textarea id="largeInputLeft" name="largeInputLeft" rows="4" placeholder="Who is this invoice from?"></textarea>
+        </div>
+    
+        <div class="column">
+            <label for="smallInputRight"><b>Bill from</b></label>
+            <input type="text" id="smallInputRight" name="smallInputRight" placeholder="Email">
+    
+            <label for="largeInputRight"></label>
+            <textarea id="largeInputRight" name="largeInputRight" rows="4" placeholder="Who is this invoice to?"></textarea>
+        </div>
+        </div>
+
+        <hr>
+        <div class="container">
+        <b class="column">ITEM</b>
+        <b class="column">QTY</b>
+        <b class="column">RATE</b>
+        <b class="column">TOTAL</b>
+        <b class="column">ACTION</b>
+      </div>
+      <hr>
+
+       <div class="container">
+      <div class="column"> 
+        <input type="text" id="smallInputLeft" name="smallInputLeft" placeholder="Item name">
+        <label for="largeInputLeft"></label>
+        <textarea id="largeInputLeft" name="largeInputLeft" rows="4" placeholder="Description"></textarea></div>
+      <div class="column"><input type="text" id="smallInputLeft" name="smallInputLeft"></div>
+      <div class="column"><input type="text" id="smallInputLeft" name="smallInputLeft" placeholder="$ 0.00"></div>
+      <div class="column">0.00$</div>
+      <b class="column">...</b>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <b class="column" style="color: #104FBD;">Add item</b>
+      <div class="column">Subtotal
+        <div style="color: #104FBD; margin-bottom: 5px; margin-top: 5px;"><b>Add discount</b></div>
+        <div style="color: #104FBD;margin-bottom: 20px;"><b>Add tax</b></div>
+        <div> </div>
+        <hr>
+
+        <b>Total</b>
+      </div>
+      <div class="column"><div> </div><div> </div><div> </div><div> </div></div>
+      <div class="column">$0.00
+        <hr>
+        <b>$0.00</b>
+      </div>
+    </div>
+
+
+    <hr>
+    
+    <label for="smallInputLeft"><b>Notes</b></label>
+    <input type="text" id="smallInputLeft" name="smallInputLeft" placeholder="Tnaks you!">
+        </div>
+
+
+        <div class="short-section">
+            <div class="button-container">
+                <button class="main-button"><img
+                  class="paper"
+                  src="./img/1.png"
+                  alt="" />Send invoice</button>
+              </div>
+              
+              <div class="button-container">
+                <button class="small-button">Preview</button>
+                <button class="small-button">Download</button>
+              </div>
+         <hr>
+         
+         <label for="currency-list">Currency</label>
+         <select>
+            <option value="usd">USD - Dollar</option>
+
+          </select>
+          <hr>
+          <div class="container">
+            <div class="left-column">
+              <p>Payment method</p>
+              <p>Late fees</p>
+              <p>Notes</p>
+            </div>
+            <div class="toggle-container">
+              <label class="toggle">
+                <input type="checkbox">
+                <span></span>
+             
+              </label>
+        
+              <label class="toggle">
+                <input type="checkbox">
+                <span></span>
+              
+              </label>
+        
+              <label class="toggle">
+                <input type="checkbox">
+                <span></span>
+             
+              </label>
+            </div>
+          </div>
+          <hr>        
+        </div>
+      </div>
+
+</body>
+</html>
